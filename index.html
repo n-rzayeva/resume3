@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CV, resume">
+    <meta name="keywords" content="education, programming, computer science">
+    <meta name="author" content="Nurana Rzayeva">
+    <title>CV example</title>
+    <style>
+        body {
+            font-family: Georgia, Arial, sans-serif;
+            font-size: 1.5rem;
+        }
+        h1 {
+            background-color: lightsteelblue;
+            padding: 15px;
+            color: darkblue;
+            margin: 0;
+        }
+        h2 {
+            color: darkblue;
+        }
+        #edu + p {
+            font-weight: bold;
+        }
+        table, th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        th {
+            background-color: lightgrey;
+        }
+        td:hover {
+            font-weight: bold;
+        }
+        a[href^="https://www.linkedin.com"] {
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        dl > dt {
+            font-weight: bold;
+            color: steelblue;
+        }
+        dt {
+            border: 1px solid lightgrey;
+            border-radius: 5px;
+        }
+        dt + dd {
+            margin-top: 5px;
+        }
+        dl {
+            display: grid;
+            grid-template-columns: max-content auto;
+            gap: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .list > li:nth-child(odd) {
+            background-color: lightgrey;
+        }
+        .list > li:hover {
+            font-weight: bold;
+        }
+        img {
+            float: left;
+            margin: 15px;
+        }
+    </style>
+</head>
+    <body>
+        <h1>Nurana Rzayeva</h1>
+        <hr>
+        <img width="200" height="300" src="Untitled_design.png" alt="My photo">
+        <h2>About me</h2>
+        <p>I'm Nuranə Rzayeva, a <strong>computer science</strong> student at <abbr title="French-Azerbaijani university">UFAZ</abbr>.<br>I have a <em>passion</em> for <em>learning</em> Web development and design.</p>
+        <h2>Contacts:</h2>
+        <table>
+            <caption><b>Contacts table</b></caption>
+            <thead>
+                <tr>
+                    <th>Phone number</th>
+                    <th>Email</th>
+                    <th>LinkedIn account</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>+994-99-380-99-59</td>
+                    <td>n.rzayeva@ufaz.az</td>
+                    <td><a href="https://www.linkedin.com/in/nuranə-rzayeva-553ab724b">Nuranə Rzayeva</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="edu">Education:</h2>
+        <p>Computer science at French-Azerbaijani university</p>
+        <dl>
+            <dt><i>Degree of education</i></dt>
+            <dd>Bachelor</dd>
+            <dt><i>Year of entering college</i></dt>
+            <dd><time datetime="2022-08">August 2022</time></dd>
+            <dt><i>year of graduation</i></dt>
+            <dd><time datetime="2026-06">June 2026</time></dd>
+        </dl>
+        <h2>Programming skills:</h2>
+        <ol class="list">
+            <li>C/C++</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>Flask(Python)</li>
+        </ol>
+        <h2>Languages:</h2>
+        <ul class="list">
+            <li>Azerbaijani-(native language)</li>
+            <li>English-B2</li>
+            <li>French-A2</li>
+        </ul>
+    </body>
+</html>
